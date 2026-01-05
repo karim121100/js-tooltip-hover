@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  position: relative;
+}
+
+#tooltip {
+  display: none;
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #333;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+}
